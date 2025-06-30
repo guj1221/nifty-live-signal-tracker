@@ -1,0 +1,13 @@
+<html>
+  <head><title>Nifty Live Signal</title></head>
+  <body style="font-family:sans-serif; padding:20px;">
+    <h2>📈 Nifty Live Signal Tracker</h2>
+    <p>🕒 Time: {{ time }}</p>
+    <p>💹 Price: ₹{{ price }}</p>
+    <p>🧠 Signal: {{ signal }}</p>
+    {% if target %}
+      <p>🎯 Target: ₹{{ target }}</p>
+      <p>🛑 Stop Loss: ₹{{ stop }}</p>
+    {% endif %}
+  </body>
+</html>

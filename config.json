@@ -1,0 +1,5 @@
+{
+  "access_token": "YOUR_DHAN_ACCESS_TOKEN",
+  "target_points": 50,
+  "stop_loss_points": 25
+}
